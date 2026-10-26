@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+const base='https://demo-social-workspace.krelyvo.com';
+const response=await fetch(base+'/');
+assert.equal(response.status,200);
+assert.equal(response.headers.get('x-robots-tag'),'noindex, nofollow, noarchive');
+const html=await response.text();
+assert.match(html, /name="robots" content="noindex, nofollow, noarchive"/);
+assert.match(html,/Social Content Workspace/);
+assert.doesNotMatch(html,/static.cloudflareinsights.com/);
+assert.ok(response.headers.get('cache-control')?.includes('no-transform'));
+const script=/src="([^"]+\.js)"/.exec(html)?.[1];
+assert.ok(script);
+const asset=await fetch(base+script);
+assert.equal(asset.status,200);
+assert.equal(asset.headers.get('x-robots-tag'),'noindex, nofollow, noarchive');
+const missing=await fetch(base+'/not-a-demo-route');
+assert.equal(missing.status,404);
+console.log(JSON.stringify({status:'passed',url:base,https:true,htmlRobots:response.headers.get('x-robots-tag'),assetRobots:asset.headers.get('x-robots-tag'),unknownPath:missing.status}));

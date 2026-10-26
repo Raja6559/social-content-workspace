@@ -28,3 +28,5 @@ Remove-Item Env:DEMO_BASE_URL
 Verify the HTTPS HTML response and static assets carry X-Robots-Tag: noindex, nofollow, noarchive, and HTML contains the same robots metadata. Hash views stay inside the one static application. All actions remain in-memory; publishing the demo does not enable AI or account integrations.
 
 Wrangler config explicitly disables workers.dev and version-preview aliases. Existing main website and other demo Workers are not touched.
+
+Public browser verification detected an inherited Cloudflare Analytics beacon injection. The demo alone sets Cache-Control no-transform in its static headers, as documented by Cloudflare, to preserve the approved no-analytics behavior without changing settings for krelyvo.com or other demos.
