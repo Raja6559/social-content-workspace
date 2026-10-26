@@ -38,10 +38,10 @@ Approved WebP derivatives come from Krelyvo's existing fictional Ember & Oak cam
 
 Sora and Inter are installed via Fontsource, bundled locally, and their original SIL Open Font License notices are included under `public/licenses/`. No new imagery is generated in this milestone.
 
-## Build and future publishing
+## Build and publishing
 
-This local demo builds to `dist/` using Vite, React, TypeScript and Tailwind. Unlike the other TanStack demos, it needs no server runtime: the views use hashes and all state is local. A future Cloudflare Worker can serve the static assets. Do not reuse a TanStack `.output/server` deploy command for this demo.
+This local demo builds to `dist/` using Vite, React, TypeScript and Tailwind. Unlike the other TanStack demos, it needs no server runtime: the views use hashes and all state is local. The dedicated Cloudflare Worker serves the static assets. Do not reuse a TanStack `.output/server` deploy command for this demo.
 
-This Task 2 repository has no remote or public deployment. Task 3 will create/connect the dedicated GitHub repository, confirm the hostname, configure Cloudflare, verify HTTPS/robot headers and add a checked entry to Work. Demo HTML already contains noindex/nofollow/noarchive, and `public/_headers` carries the matching static-response header for that release. These do not provide private access.
+Published demo: https://demo-social-workspace.krelyvo.com/. Source: https://github.com/Raja6559/social-content-workspace. The public demo passed seven browser checks plus HTTPS, noindex metadata/header and unknown-path checks. Automatic Git deployment requires the dashboard connection documented in docs/publication.md; this has not yet been verified. Noindex is a search preference, not private access.
 
-The main website, internal Agent Studio and existing demos are unchanged.
+The private Agent Studio and existing demo repositories are unchanged. Work integration is a separate website commit; see the publication verification record.

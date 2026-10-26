@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26",
+  "status": "Public demo verified",
+  "url": "https://demo-social-workspace.krelyvo.com/",
+  "repository": "https://github.com/Raja6559/social-content-workspace",
+  "worker": "krelyvo-demo-social-workspace",
+  "versionId": "dccd0e2f-b7bc-423c-95ec-7bc351e875f4",
+  "publicBrowserTests": 7,
+  "unitTests": 5,
+  "typeScript": "passed",
+  "productionBuild": "passed",
+  "https": true,
+  "robotsMetadata": "noindex, nofollow, noarchive",
+  "htmlRobotsHeader": "noindex, nofollow, noarchive",
+  "assetRobotsHeader": "noindex, nofollow, noarchive",
+  "unknownPathStatus": 404,
+  "externalAppRequests": 0,
+  "analyticsInjection": "Prevented on this demo with the documented no-transform static response directive",
+  "gitBuildConnection": "Pending dashboard connection; CLI OAuth lacks Workers Builds permissions",
+  "websiteIntegration": "In progress on feat/social-workspace-showcase",
+  "enquirySubmitted": false
+}
