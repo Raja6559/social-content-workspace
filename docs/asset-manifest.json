@@ -1,0 +1,51 @@
+[
+  {
+    "source": "D:\\Raja\\Business Work\\Krelyvo Studio\\krelyvo-studio-website\\src\\assets\\ember-campaign\\post-01-atmosphere-432.webp",
+    "destination": "public/assets/post-01-atmosphere-432.webp",
+    "sha256": "BA1D7558074AB25E86AF06F5605B38D478F09E2355EB1160A4ACE96CD0E0635E",
+    "bytes": 42860,
+    "origin": "Approved fictional Ember & Oak campaign by Krelyvo Studio; AI-generated imagery"
+  },
+  {
+    "source": "D:\\Raja\\Business Work\\Krelyvo Studio\\krelyvo-studio-website\\src\\assets\\ember-campaign\\post-01-atmosphere-864.webp",
+    "destination": "public/assets/post-01-atmosphere-864.webp",
+    "sha256": "F6F4769057DC5571576155AE3E784462E2802EF36EAF2767A2C23E9FF4FEC502",
+    "bytes": 126700,
+    "origin": "Approved fictional Ember & Oak campaign by Krelyvo Studio; AI-generated imagery"
+  },
+  {
+    "source": "D:\\Raja\\Business Work\\Krelyvo Studio\\krelyvo-studio-website\\src\\assets\\ember-campaign\\post-02-menu-432.webp",
+    "destination": "public/assets/post-02-menu-432.webp",
+    "sha256": "E6D9693232CA578CC0F4C0BC686EBB699CCF001C173B9841B200B166B35DEA23",
+    "bytes": 45790,
+    "origin": "Approved fictional Ember & Oak campaign by Krelyvo Studio; AI-generated imagery"
+  },
+  {
+    "source": "D:\\Raja\\Business Work\\Krelyvo Studio\\krelyvo-studio-website\\src\\assets\\ember-campaign\\post-02-menu-864.webp",
+    "destination": "public/assets/post-02-menu-864.webp",
+    "sha256": "F8FAF2FFFC08A848BC9AEDF0720DB99FF662DC11D7F2E41AD17B00FD62CAB6EA",
+    "bytes": 124594,
+    "origin": "Approved fictional Ember & Oak campaign by Krelyvo Studio; AI-generated imagery"
+  },
+  {
+    "source": "D:\\Raja\\Business Work\\Krelyvo Studio\\krelyvo-studio-website\\src\\assets\\ember-campaign\\post-03-gathering-432.webp",
+    "destination": "public/assets/post-03-gathering-432.webp",
+    "sha256": "9D449A66DE79D483DCD285EC0DB24EE6D9C518A038921B4CA9692EF6BD476ECE",
+    "bytes": 41630,
+    "origin": "Approved fictional Ember & Oak campaign by Krelyvo Studio; AI-generated imagery"
+  },
+  {
+    "source": "D:\\Raja\\Business Work\\Krelyvo Studio\\krelyvo-studio-website\\src\\assets\\ember-campaign\\post-03-gathering-864.webp",
+    "destination": "public/assets/post-03-gathering-864.webp",
+    "sha256": "3F501830678F3ED6C3F1202D3D19DEDB2D5B23DDD9BAED3751AF38AEAC90CF50",
+    "bytes": 106896,
+    "origin": "Approved fictional Ember & Oak campaign by Krelyvo Studio; AI-generated imagery"
+  },
+  {
+    "source": "D:/Raja/Business Work/Krelyvo Studio/krelyvo-studio-website/public/brand/krelyvo-brandmark-160.png",
+    "destination": "public/assets/krelyvo-logo.png",
+    "sha256": "1D81982F5B545F7F5614EF7D8ADF0AE8FF1186CB18BD5D73A3732EF655751E23",
+    "bytes": 26902,
+    "origin": "Finalized Krelyvo Studio brand mark, reused without redesign"
+  }
+]
