@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { readFile } from "node:fs/promises";
+const demoBase = process.env["DEMO_BASE_URL"] || "http://127.0.0.1:8101";
 
 test("disclosed sample overview has accurate counts and complete local artwork", async ({
   page,
@@ -7,7 +8,7 @@ test("disclosed sample overview has accurate counts and complete local artwork",
   const unexpected: string[] = [];
   page.on("request", (r) => {
     if (
-      !r.url().startsWith("http://127.0.0.1:8101") &&
+      !r.url().startsWith(demoBase) &&
       !r.url().startsWith("data:") &&
       !r.url().startsWith("blob:")
     )
@@ -268,7 +269,7 @@ test("no-JavaScript fallback is meaningful and search metadata discourages index
 }) => {
   const context = await browser.newContext({ javaScriptEnabled: false });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:8101/");
+  await page.goto(demoBase + "/");
   await expect(
     page.getByRole("heading", {
       name: "Social Content Workspace",

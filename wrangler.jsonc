@@ -1,0 +1,16 @@
+{
+  "name": "krelyvo-demo-social-workspace",
+  "compatibility_date": "2026-10-26",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "demo-social-workspace.krelyvo.com",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false,
+  "preview_urls": false
+}
